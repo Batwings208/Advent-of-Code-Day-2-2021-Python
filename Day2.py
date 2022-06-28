@@ -1,10 +1,7 @@
-
-
-
 #Part 1
 
 
-with open("Day2_files", "r") as f:
+with open("Day2_files", "r") as f: #just change the file path to yours where it says Day2_files. Store your puzzle input in txt.
     depth = 0
     horizontal = 0
     lines = f.readlines()
@@ -30,7 +27,7 @@ print(Answer_of_day2)
 #Part 2
 
 
-with open("Day2_files", "r") as f:
+with open("Day2_files", "r") as f: #  change the file path here too to your file path where it says Day2_files.
     depth = 0
     horizontal = 0
     aim = 0
